@@ -1,0 +1,63 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title> Harry Minsky's Comedic Portfolio </title>
+        <link rel="stylesheet" href="styles/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+        <button class="ham"></button>
+        <nav class="topnav">
+
+            <ul>
+                <li><a class="menuLink" href="https://i6.cims.nyu.edu/~hm2536/finalproject/">Home</a></li>
+                <li><a class="menuLink" href="writing.html">Writing</a></li>
+                <li><a class="menuLink" href="scripts.html">Scripts</a></li>
+                <li><a class="menuLink" href="videos.html">Videos</a></li>
+                <li><a class="menuLink" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <header>
+        <h1> Harry Minsky's Media Portfolio </h1>
+        </header>
+
+        <main>
+            <h2> Contact </h2>
+
+            <div class="contactintro">
+
+        <p id="contactdescription"> If you'd like to contact me to applaud my talent or mercilessly berate me, fill out this form and I'll get back to you eventually idk i'm not made of time </p>
+        <img id="contactimage" src="images/contactpic.png" srcset="images/contactpic-480.png 480w,
+                             images/contactpic-800.png 800w" sizes="(max-width: 50em) 240px,
+                            800px" alt="Another picture of Harry Minsky" />
+            </div>
+            <br>
+            <form id="contactform" class="contact" action="https://formspree.io/f/mbjpzdqn" method="post">
+                <p>Name <input type="text" name="name" placeholder="Your name" ></p>
+                <p>Email: <input type="email" name="email" placeholder="Enter your email address" required></p>
+                <p>Message</p>
+                <textarea name="message" cols="36" rows="6" placeholder="Enter your message here" required></textarea>
+                <p>If you perused my content, which one(s) were your favorite? <br>
+                <input type="checkbox" name="content" value="Aderall" > A poem about Aderall <br>
+                <input type="checkbox" name="content" value="Bezos"> Bezos Fan-fic <br>
+                <input type="checkbox" name="content" value="Superpowers"> Superpowers <br>
+                <input type="checkbox" name="content" value="Grinch"> How the grinch stole my kidney <br>
+                <input type="checkbox" name="content" value="Bros"> Priorities <br>
+                <input type="checkbox" name="content" value="Morning"> Morning Song <br>
+                <input type="checkbox" name="content" value="Silly Mayor"> Responsive Design <br>
+                <input type="checkbox" name="content" value="Sorting"> Sorting Hat <br>
+                <input type="checkbox" name="content" value="General"> General Anatomy <br>
+
+            <p><input class="sub" type="submit" value="Submit"></p>
+            </form>
+            <footer>
+                <p><a href="https://cs.nyu.edu/courses/fall20/CSCI-UA.0004-004/syllabus/">Introduction to web design</a></p>
+                </footer>
+        <script src="main.js"></script>
+    </body>
+
+    </html>
